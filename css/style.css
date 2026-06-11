@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004a8d;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    color: #004a8d;
+    border-bottom: 2px solid #ffcc00;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+main a {
+    color: #004a8d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #004a8d;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #fdf5d2;
+}
+
+article {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h3 {
+    color: #004a8d;
+    font-size: 1.8em;
+}
+
+h4 {
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    font-size: 1.1em;
+}
+
+h5 {
+    color: #666;
+    font-size: 1.1em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#lista-receitas ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color: #004a8d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+#contato {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #004a8d;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ffcc00;
+}
+
+#btn-enviar {
+    background-color: #ffcc00;
+    color: #004a8d;
+    border: 1px solid #ffcc00;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background-color: #e6b800;
+    border-color: #e6b800;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#biografia article {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.foto-perfil {
+    float: right;
+    width: 30%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#biografia p {
+    color: #222222;
+    font-size: 1em;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#biografia strong,
+#biografia em {
+    color: #004a8d;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+}
+
+#controles-acessibilidade {
+    display: flex;
+    align-items: center;
+}
+
+#controles-acessibilidade button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.2em;
+    height: 3.2em;
+    padding: 0;
+    margin-left: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ffcc00;
+    color: #004a8d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#controles-acessibilidade button:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+}
+
+#controles-acessibilidade button .material-symbols-outlined {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+body.dark-mode {
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+body.dark-mode main {
+    background-color: #161b22;
+    border-color: #30363d;
+    color: #e6edf3;
+}
+
+body.dark-mode article {
+    background-color: #161b22;
+    border-color: #30363d;
+    color: #e6edf3;
+}
+
+body.dark-mode h2 {
+    color: #58a6ff;
+    border-color: #ffdb58;
+}
+
+body.dark-mode h3 {
+    color: #58a6ff;
+}
+
+body.dark-mode main a {
+    color: #58a6ff;
+}
+
+body.dark-mode h4 {
+    background-color: #21262d;
+    color: #ffdb58;
+    border-color: #ffdb58;
+}
+
+body.dark-mode h5 {
+    border-color: #ffdb58;
+}
+
+body.dark-mode table {
+    background-color: #161b22;
+}
+
+body.dark-mode table th {
+    background-color: #30363d;
+    color: #58a6ff;
+}
+
+body.dark-mode table td {
+    border-color: #30363d;
+    color: #e6edf3;
+}
+
+body.dark-mode table tr:nth-child(even) {
+    background-color: #21262d;
+}
+
+body.dark-mode table tr:hover {
+    background-color: #262203;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: #21262d;
+    border-color: #30363d;
+    color: #e6edf3;
+}
